@@ -7,7 +7,7 @@ import {
 import { FileInterceptor } from '@nestjs/platform-express';
 import { ImageService } from './image.service';
 
-@Controller('image')
+@Controller()
 export class ImageController {
   constructor(private readonly imageService: ImageService) {}
 
