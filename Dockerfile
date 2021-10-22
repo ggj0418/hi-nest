@@ -1,6 +1,6 @@
 # Step 1
-## base image for Step 1: Node 10
-FROM node:10 AS builder
+## base image for Step 1: Node 12
+FROM node:12 AS builder
 WORKDIR /app
 ## 프로젝트의 모든 파일을 WORKDIR(/app)로 복사한다
 COPY . .
