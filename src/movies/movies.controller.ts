@@ -24,9 +24,14 @@ export class MoviesController {
   //   return '';
   // }
 
+  // @Get()
+  // getAll(): Movie[] {
+  //   return this.moviesService.getAll();
+  // }
+
   @Get()
-  getAll(): Movie[] {
-    return this.moviesService.getAll();
+  getAll(): string {
+    return 'update complete';
   }
 
   // 조회
